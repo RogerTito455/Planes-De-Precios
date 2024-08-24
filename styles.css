@@ -15,12 +15,12 @@ body {
 .subcontainer {
     flex-direction: column;
     margin-right: 2em;
-    padding: 5em;
+    padding: 5em 4.5em;
     background-color: white;
     border-radius: 2em;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
-    max-width: 100%;
+    max-width: 15.625em;
     border-top: 3em solid green;
 }
 .subcontainer:hover {
@@ -29,7 +29,8 @@ body {
 }
 
 .title {
-    font-size: 2em;
+    max-width: 100%;
+    font-size: 3.25em;
     color: black;
     margin-bottom: 1em;
     text-align: center;
