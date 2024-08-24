@@ -10,7 +10,7 @@ body {
     display: flex;
     align-items: flex-end;
     flex-wrap: wrap;
-    gap: 16px;
+    gap: 36px;
 }
 .subcontainer {
     flex-direction: column;
@@ -55,9 +55,15 @@ li {
     background-color: black;
     border-radius: 10em;
     color: white;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, padding 0.3s;
 }
 .btn:hover {
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
     background-color: green;
+    padding: 1.5em 3.8em;
+}
+@media (max-width: 760px) {
+    .container {
+        justify-content: center;
+    }
 }
